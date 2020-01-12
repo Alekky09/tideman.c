@@ -194,7 +194,7 @@ void print_winner(void)
                 c++;
                 if(c == candidate_count)
                 {
-                    printf("%s", candidates[i]);
+                    printf("%s\n", candidates[i]);
                 }
             }
         }
