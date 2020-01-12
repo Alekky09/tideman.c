@@ -192,7 +192,7 @@ void print_winner(void)
             if(!locked[j][i])
             {
                 c++;
-                if(c == candidate_count - 1)
+                if(c == candidate_count)
                 {
                     printf("%s", candidates[i]);
                 }
