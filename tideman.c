@@ -150,7 +150,7 @@ void sort_pairs(void)
     pair temp;
     for(int i = 0; i < pair_count; i++)
     {
-        if(preferences[pairs[i].winner][pairs[i].loser] < preferences[pairs[i + 1].winner][pairs[i + 1].loser])
+        while(preferences[pairs[i].winner][pairs[i].loser] < preferences[pairs[i + 1].winner][pairs[i + 1].loser])
         {
             temp.winner = pairs[i].winner;
             temp.loser = pairs[i].loser;
