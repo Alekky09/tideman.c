@@ -158,6 +158,7 @@ void sort_pairs(void)
             pairs[i].loser = pairs[i - 1].loser;
             pairs[i - 1].winner = temp.winner;
             pairs[i - 1].loser = temp.loser;
+            i--;
         }
     }
     return;
